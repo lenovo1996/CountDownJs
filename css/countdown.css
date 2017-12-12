@@ -1,0 +1,28 @@
+.timer-years, .timer-days, .timer-hours, .timer-minutes, .timer-seconds, .timer-miliseconds {
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.timer-name {
+    text-align: center;
+    margin: 0px auto;
+    width: 100%;
+    position: absolute;
+    font-size: 15px;
+    bottom: 10px;
+}
+
+.countDownJs > .timer-column {
+    display: inline-block;
+    height: 0px;
+    width: 100px;
+    color: white;
+    margin-right: 5px;
+    position: relative;
+    bottom: 0px;
+    top: 72px;
+}
